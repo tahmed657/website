@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    overflow-x: hidden !important;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    margin-right: 8%;
+}
+
+
+.name {
+    margin-top: 190px; 
+    margin-left: 10%;
+}
+
+.Tahsin {
+    font-size: 90px;
+    font-family: 'Bodoni Moda', serif;
+    color:  rgb(227, 230, 231);
+    margin-left: 70px;
+}
+
+.info {
+    font-size: 30px;
+    font-family: 'Bodoni Moda', serif;
+    color:  rgb(227, 230, 231);
+    margin-right: calc(100px + 50px); /* Same margin as the TopBar */
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
+.arrow{
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+
+
+
+
+
+
+
+

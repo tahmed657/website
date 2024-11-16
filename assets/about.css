@@ -1,0 +1,37 @@
+.TopBar{
+    justify-content: flex-end;
+   display: flex;
+   color: rgb(0, 0, 0);
+   gap: 35px;
+   align-items: end;
+   font-size: 17px;
+   font-family: 'Bodoni Moda', serif;
+   position: relative;
+   top: 40px; 
+   left: -150px; 
+   
+}
+
+.TopBar a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent to keep styling */
+}
+
+.TopBar a.About {
+    color: rgb(148, 148, 148); /* Change this to your desired color */
+}
+
+.info{
+    display: flex;
+    flex-direction: row;  
+    margin-top: 10%;
+    margin-left: 10%;
+
+    font-size: 17px;
+}
+
+.mypic{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 12%;
+}

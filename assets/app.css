@@ -1,0 +1,262 @@
+body{
+    background-color: rgb(4, 14, 31);
+    overflow-x: hidden !important;
+}
+
+.box{
+    text-align: center;
+    margin-top: 5%;
+    font-family:'Bodoni Moda', serif;
+}
+.info{
+    margin-top: 10px;
+    width: 65%;
+    height: 180%;
+    background-color: rgb(10, 33, 72);
+    margin-left: 17.5%;
+    padding-top: 10px;
+
+}
+.info1{
+    color: aliceblue;
+    margin-left: 3%;
+    text-align: justify;
+    font-size: 20PX;
+    padding-top: 10px;
+}
+
+.info2{
+    margin-top: 20px;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+/*.singleApps{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top:30px;
+}
+.compass{
+    
+}
+
+.compass:hover::after {
+    content: "Compass"; 
+    color: white; 
+    position: relative;
+    bottom: -20px;
+    left: -60px;
+}
+
+.clock{
+
+}
+
+.clock:hover::after {
+    content: "Clock"; 
+    color: white; 
+    position: relative;
+    bottom: -20px;
+    left: -60px;
+}
+
+.calender{    
+
+}
+
+.calender:hover::after {
+    content: "Calender"; 
+    color: white;
+    position: relative;
+    bottom: -20px;
+    left: -60px;
+}*/
+.singleApps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 30px;
+}
+
+.compass,
+.clock,
+.calender,
+.weather,
+.setting,
+.camera,
+.photo,
+.mail,
+.facetime,
+.appstore,
+.music,
+.map,
+.findmy,
+.note,
+.reminder {
+    position: relative; /* Needed for absolute positioning of ::after */
+}
+
+.compass:hover::after {
+    content: "Compass";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.clock:hover::after {
+    content: "Clock";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.calender:hover::after {
+    content: "Calender";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.weather:hover::after {
+    content: "Weather";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.setting:hover::after {
+    content: "Setting";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.camera:hover::after {
+    content: "Camera";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.photo:hover::after {
+    content: "Photo";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.mail:hover::after {
+    content: "Mail";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.facetime:hover::after {
+    content: "Facetime";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.appstore:hover::after {
+    content: "App Store";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.music:hover::after {
+    content: "Music";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.map:hover::after {
+    content: "Map";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.findmy:hover::after {
+    content: "Find My";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.note:hover::after {
+    content: "Note";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.reminder:hover::after {
+    content: "Reminder";
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    margin-top: -1px;
+}

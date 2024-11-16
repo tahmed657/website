@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(227, 230, 231);
+    overflow-x: hidden !important;
+}
+
+.TopBar{
+    justify-content: flex-end;
+   display: flex;
+   color: rgb(0, 0, 0);
+   gap: 35px;
+   align-items: end;
+   font-size: 17px;
+   font-family: 'Bodoni Moda', serif;
+   position: relative;
+   top: 40px; 
+   left: -150px; 
+   
+}
+
+.TopBar a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent to keep styling */
+}
+
+.TopBar a.Work {
+    color: rgb(148, 148, 148); /* Change this to your desired color */
+}
+
+.topinfo{
+    margin-top: 55px;
+    margin-left: 14%;
+}
+
+.container {
+    display: flex; /* Use flexbox to align children */
+    justify-content: space-between; /* Optional: space between items */
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 60px; /* Add margin to the container if needed */
+    margin-right: 8%;
+}
+
+     
+ .CCNYbalance {
+    background-image: url(images/ccny.jpg);
+    background-color: rgb(0, 0, 0);
+    background-size: 110%; /* Adjust this percentage to make the image smaller */
+    background-repeat: no-repeat; /* Prevents tiling of the background image */
+    background-position: center; /* Centers the image */
+    height: 50vh;
+    width: 37%;
+    margin-left: 180px;
+}
+ 
+.avatarApps{
+    background-image: url(images/app.jpg);
+    background-color: rgb(0, 0, 0);
+    background-size: 85%; /* Adjust this percentage to make the image smaller */
+    background-repeat: no-repeat; /* Prevents tiling of the background image */
+    background-position: center; /* Centers the image */
+    height: 50vh;
+    width: 37%;
+    margin-left: 180px;
+
+}
+
+.containerInfo1{
+    font-size: 20px;
+    margin-left: 23%;
+    margin-top: 1%;
+
+}
+
+.containerInfo2{
+    margin-top: -2%;
+    font-size: 20px;
+    margin-left: 69%;
+    
+}
+
+.container2{
+    
+    display: flex; /* Use flexbox to align children */
+    justify-content: space-between; /* Optional: space between items */
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 70px; /* Add margin to the container if needed */
+    margin-right: 8%;
+
+
+}
+
+.bookDesign{
+    background-image: url(images/bookPages/book.jpg);
+    background-color: rgb(0, 0, 0);
+    background-size: 110%; /* Adjust this percentage to make the image smaller */
+    background-repeat: no-repeat; /* Prevents tiling of the background image */
+    background-position: center; /* Centers the image */
+    height: 50vh;
+    width: 34%;                                                 
+    margin-left: 180px;
+
+}
+
+.container2Info1{
+    margin-top: 1%;
+    font-size: 20px;
+    margin-left: 25%;
+
+}
+
+
+
+

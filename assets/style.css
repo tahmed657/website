@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(227, 230, 231);
+    overflow-x: hidden !important;
+}
+
+.box{
+    margin-left: 0%;
+    margin-right: 8%;
+    display: flex;
+}
+.TopBar{
+justify-content: flex-end;
+   display: flex;
+   color: rgb(64, 113, 67);
+   gap: 50px;
+   align-items: end;
+   font-size: 20px;
+   position: relative;
+    top: 40px; 
+    left: -90px; 
+    font-family: 'Bodoni Moda' serif;
+}
+
+.name {
+    position: relative;
+    top: 160px; 
+    right: -100px; /* Align with TopBar's left offset */
+}
+
+.Tahsin {
+    font-size: 90px;
+    font-family: 'Bodoni Moda', serif;
+    color: rgb(64, 113, 67);
+    margin-left: 70px;
+}
+
+.info {
+    font-size: 30px;
+    font-family: 'Bodoni Moda', serif;
+    color: rgb(64, 113, 67);
+    margin-right: calc(100px + 50px); /* Same margin as the TopBar */
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
+
+@media (max-width: 768px) {
+    .TopBar {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: flex-end; /* Align to the end for smaller screens */
+        gap: 10px; /* Reduce gap on smaller screens */
+    }
+
+}
+
+.container {
+    display: flex; /* Use flexbox to align children */
+    justify-content: space-between; /* Optional: space between items */
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 350px; /* Add margin to the container if needed */
+}
+
+.CCNYbalance{
+   background-color: rgb(26, 224, 224);
+   height: 50vh; 
+    width: 37%;
+    margin-left: 180px;
+}
+
+.avatarApps{
+    background-color: rgb(26, 26, 224);
+    height: 50vh; 
+     width: 37%;
+     margin-right: 3%;
+     
+ }
+
+
+
+

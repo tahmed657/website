@@ -1,0 +1,186 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/bookDesign.css">
+    </head>
+
+    <body>
+        <div class="box">
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/page1.png" alt="Slide 1" class="page1">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/2-3.png" alt="Slide 2">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/4-5.png" alt="Slide 3">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/6-7.png" alt="Slide 4">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/8-9.png" alt="Slide 5">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/10-11.png" alt="Slide 6">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/12-13.png" alt="Slide 7">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/14-15.png" alt="Slide 8">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/16-17.png" alt="Slide 9">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/18-19.png" alt="Slide 10">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/20-21.png" alt="Slide 11">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/22-23.png" alt="Slide 12">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/24-25.png" alt="Slide 13">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/26-27.png" alt="Slide 14">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/28-29.png" alt="Slide 15">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/30-31.png" alt="Slide 17">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/32-33.png" alt="Slide 18">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/3bookPages/4-35.png" alt="Slide 19">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/36-37.png" alt="Slide 20">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/38-39.png" alt="Slide 21">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/40-41.png" alt="Slide 22">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/42-43.png" alt="Slide 23">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="assets/images/bookPages/44.png" alt="Slide 24" class="page44">
+                </div>
+        
+        
+        
+                
+        
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+                <span class="dot" onclick="currentSlide(12)"></span>
+                <span class="dot" onclick="currentSlide(13)"></span>
+                <span class="dot" onclick="currentSlide(14)"></span>
+                <span class="dot" onclick="currentSlide(15)"></span>
+                <span class="dot" onclick="currentSlide(16)"></span>
+                <span class="dot" onclick="currentSlide(17)"></span>
+                <span class="dot" onclick="currentSlide(18)"></span>
+                <span class="dot" onclick="currentSlide(19)"></span>
+                <span class="dot" onclick="currentSlide(20)"></span>
+                <span class="dot" onclick="currentSlide(21)"></span>
+                <span class="dot" onclick="currentSlide(22)"></span>
+                <span class="dot" onclick="currentSlide(23)"></span>
+               
+        
+        
+                
+            </div>
+        
+            <div class="text">Designed the first chapter of 'The Elements of Typographic Style' by Robert Bringhurst, using only typefaces.</div>
+        
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+        
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+        
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {
+                        slideIndex = 1;
+                    }
+        
+                    if (n < 1) {
+                        slideIndex = slides.length;
+                    }
+                    
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+        
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+
+
+
+
+
+
+        
+    </body>
+
+</html>

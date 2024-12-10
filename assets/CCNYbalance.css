@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(227, 230, 231);
+    background-color: rgb(27, 2, 58);
     overflow-x: hidden !important;
 }
 
@@ -9,9 +9,61 @@ body{
     font-family: 'Bodoni Moda', serif;
 }
 
+.pic1{
+  margin-left: 9.5%;
+
+}
+.TopBar{
+  justify-content: flex-end;
+ display: flex;
+ color: rgb(0, 0, 0);
+ gap: 35px;
+ align-items: end;
+ font-size: 16px;
+ font-family: 'Bodoni Moda', serif;
+ position: relative;
+ top: 40px; 
+ left: -150px; 
+ 
+}
+
+.TopBar a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent to keep styling */
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  top: -35.5%;
+  left: -75%;
+  transform: translate(0vw, -60vw);
+  padding: 7px 7px;
+  background-color: #EFE9FF;
+  color: rgb(0, 0, 0);
+  width: 7.5vw;
+  height: 1.5vw;
+  font-size: 1vw;
+  border: 1px solid rgb(24, 25, 26);
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .problem {
     margin-left: 12.5%;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(208, 202, 230);
     width: 71.8%;
     height: auto; /* Adjust height based on content */
     min-height: 350px; /* Optional: Sets a minimum height to ensure it's longer */
@@ -36,7 +88,7 @@ body{
 }
 
 .interviewResults{
-    background-color: rgb(230, 212, 245);
+    background-color: rgb(144, 108, 174);
     margin-top: 5%;
     margin-left: 0%;
     width: 100%;
@@ -149,7 +201,7 @@ body{
 
 .phonescreen{
     padding-top: 35px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(208, 202, 230);
     padding: 20px;
     width: 72%;
     height: 80%;
@@ -170,7 +222,7 @@ body{
 .wireframe{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: white;
+    background-color: rgb(208, 202, 230);
     width: 74.9%;
     height: 70%;
     margin-left: 12.5%;
@@ -194,7 +246,7 @@ body{
 .darkmode{
     width: 72%;
     height: 60%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(194, 184, 230);
     padding-top: 100px;
     padding-bottom: 50px;
     padding-left: 40px;
@@ -230,6 +282,8 @@ body{
     font-weight: bold;
 
   }
+
+  
   /*.circleRow1 {
     margin-top: 40px;
     margin-left: 60px;

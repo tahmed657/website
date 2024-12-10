@@ -1,6 +1,7 @@
 body{
     background-color: rgb(227, 230, 231);
     overflow-x: hidden !important;
+    font-family: 'Bodoni Moda', serif;
 }
 
 .TopBar{
@@ -9,7 +10,7 @@ body{
    color: rgb(0, 0, 0);
    gap: 35px;
    align-items: end;
-   font-size: 17px;
+   font-size: 16px;
    font-family: 'Bodoni Moda', serif;
    position: relative;
    top: 40px; 
@@ -26,76 +27,98 @@ body{
     color: rgb(148, 148, 148); /* Change this to your desired color */
 }
 
-.topinfo{
-    margin-top: 55px;
-    margin-left: 14%;
+
+.Tahsin {
+    margin-top: 6%;
+    padding: 70px;
+    font-size: 75px;
+    font-family: 'Bodoni Moda', serif;
+    color:  rgb(0, 0, 0);
+    margin-left: 70px;
+}
+
+.info {
+    font-size: 20px;
+    font-family: 'Bodoni Moda', serif;
+    color:  rgb(0, 0, 0);
+    margin-right: calc(100px + 50px); /* Same margin as the TopBar */
+    margin-top: 1px;
+    margin-left: 140px;
+    
 }
 
 .container {
     display: flex; /* Use flexbox to align children */
     justify-content: space-between; /* Optional: space between items */
     align-items: flex-start; /* Align items to the top */
-    margin-top: 60px; /* Add margin to the container if needed */
-    margin-right: 8%;
+    margin-top: 170px; /* Add margin to the container if needed */
+    margin-right: 12%;
 }
 
      
  .CCNYbalance {
     background-image: url(images/ccny.jpg);
     background-color: rgb(0, 0, 0);
-    background-size: 110%; /* Adjust this percentage to make the image smaller */
+    background-size: 100%; /* Adjust this percentage to make the image smaller */
     background-repeat: no-repeat; /* Prevents tiling of the background image */
     background-position: center; /* Centers the image */
-    height: 50vh;
+    height: 43vh;
     width: 37%;
-    margin-left: 180px;
+    margin-left: 140px;
 }
  
-.avatarApps{
-    background-image: url(images/app.jpg);
+.JCPenneyWebsiteRedesign{
+    background-image: url(images/jcpenney1.jpg);
     background-color: rgb(0, 0, 0);
-    background-size: 85%; /* Adjust this percentage to make the image smaller */
+    background-size: 100%; /* Adjust this percentage to make the image smaller */
     background-repeat: no-repeat; /* Prevents tiling of the background image */
     background-position: center; /* Centers the image */
-    height: 50vh;
+    height: 43vh;
     width: 37%;
     margin-left: 180px;
 
 }
 
+
 .containerInfo1{
-    font-size: 20px;
-    margin-left: 23%;
+    font-size: 18px;
+    margin-left: 21%;
     margin-top: 1%;
 
 }
 
 .containerInfo2{
     margin-top: -2%;
-    font-size: 20px;
-    margin-left: 69%;
+    font-size: 18px;
+    margin-left: 64%;
     
 }
 
-.container2{
+.bookDesignMarginLeft{
+
+    margin-left: 70%;
     
-    display: flex; /* Use flexbox to align children */
-    justify-content: space-between; /* Optional: space between items */
-    align-items: flex-start; /* Align items to the top */
-    margin-top: 70px; /* Add margin to the container if needed */
-    margin-right: 8%;
+}
 
-
+.avatarApps{
+    background-image: url(images/app.jpg);
+    background-color: rgb(0, 0, 0);
+    background-size: 80%; /* Adjust this percentage to make the image smaller */
+    background-repeat: no-repeat; /* Prevents tiling of the background image */
+    background-position: center; /* Centers the image */
+    height: 43vh;
+    width: 37%;
+    margin-left: 140px;
 }
 
 .bookDesign{
     background-image: url(images/bookPages/book.jpg);
-    background-color: rgb(0, 0, 0);
-    background-size: 110%; /* Adjust this percentage to make the image smaller */
+    background-color: rgb(21, 20, 20);
+    background-size: 100%; /* Adjust this percentage to make the image smaller */
     background-repeat: no-repeat; /* Prevents tiling of the background image */
     background-position: center; /* Centers the image */
-    height: 50vh;
-    width: 34%;                                                 
+    height: 43vh;
+    width: 37%;
     margin-left: 180px;
 
 }
@@ -106,6 +129,8 @@ body{
     margin-left: 25%;
 
 }
+
+
 
 
 

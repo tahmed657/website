@@ -18,7 +18,7 @@
             </div>
 
             <div class="Tahsin">Hi, I'm Tahsin</div>
-            <div class="info">A Digital Design major at the City College of New York. I'm passionate about UX/UI design and dedicated to creating intuitive and visually appealing digital experiences.</div>
+            <div class="info">A Digital Design major at the City College of New York, I am deeply passionate about UX/UI design and committed to crafting innovative and visually compelling digital experiences. My focus is on creating intuitive, user-centered designs that not only look great but also function seamlessly, ensuring accessibility and ease of use for all users.</div>
         </div>
 
             <div class="container">
@@ -45,16 +45,59 @@
             
             </div>
 
-            <div class="containerInfo">
-                <div class="containerInfo1">
+            <div class="containerInfo3">
                     Avatar-Themed Icon
                 </div>
 
-                <div class="containerInfo2 bookDesignMarginLeft">
+                <div class="containerInfo4">
                     Book Design
                 </div>
 
         </div>
     </div>
+
+
+    <script>
+        window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var tahsin = document.querySelector('.Tahsin');
+    var info = document.querySelector('.info');
+    var body = document.body;
+
+    // Adjust opacity of the name and info based on scroll position
+    var opacity = 1 - (scrollPosition / 400); // Adjust the divisor for how quickly you want it to disappear
+    if (opacity < 0) opacity = 0; // Ensure opacity doesn't go negative
+
+    tahsin.style.opacity = opacity;
+    info.style.opacity = opacity;
+
+    // Bottom info and images (like CCNYbalance, JCPenneyWebsiteRedesign) come in faster
+    var bottomElements = document.querySelectorAll('.container .CCNYbalance, .container .JCPenneyWebsiteRedesign, .container .avatarApps, .container .bookDesign');
+    
+    bottomElements.forEach(function(element) {
+        var elementPosition = element.getBoundingClientRect().top;
+        
+        // When the element is within the viewport, fade it in faster
+        if (elementPosition < window.innerHeight) {
+            var fadeInSpeed = (window.innerHeight - elementPosition) / 200; // Adjust for faster appearance
+            if (fadeInSpeed > 1) fadeInSpeed = 1; // Limit to 1 for maximum opacity
+            element.style.opacity = fadeInSpeed;
+        } else {
+            element.style.opacity = 0; // Keep it hidden if not in the viewport
+        }
+    });
+
+    // Add class to trigger scroll effect for images and content
+    if (scrollPosition > 200) { // Trigger after a certain scroll position
+        body.classList.add('scrolling');
+    } else {
+        body.classList.remove('scrolling');
+    }
+});
+    </script>
+    
+
+
+    
     </body>
 </html>

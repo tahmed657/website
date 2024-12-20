@@ -1,15 +1,25 @@
-.TopBar{
+.body{
+    background-color: rgb(227, 230, 231);
+}
+
+
+
+.TopBar {
+    display: flex;
     justify-content: flex-end;
-   display: flex;
-   color: rgb(0, 0, 0);
-   gap: 35px;
-   align-items: end;
-   font-size: 16px;
-   font-family: 'Bodoni Moda', serif;
-   position: relative;
-   top: 40px; 
-   left: -150px; 
-   
+    color: rgb(0, 0, 0);
+    gap: 35px;
+    align-items: end;
+    font-size: 16px;
+    font-family: 'Bodoni Moda', serif;
+    position: fixed; /* Make it stay fixed at the top */
+    top: 25px; /* Align at the very top */
+    left: 0; /* Align to the left side */
+    width: 100%; /* Ensure it spans the full width of the screen */
+    background-color: rgb(255, 255, 255); /* Optional: to add a background for readability */
+    z-index: 1000; /* Ensure it's on top of other content */
+    padding: 10px; /* Optional: space around the items */
+    margin-right: 20%;
 }
 
 .TopBar a {
@@ -19,6 +29,10 @@
 
 .TopBar a.Resume {
     color: rgb(148, 148, 148); /* Change this to your desired color */
+}
+
+.About {
+    margin-right: 170px;
 }
 
 .resume {
